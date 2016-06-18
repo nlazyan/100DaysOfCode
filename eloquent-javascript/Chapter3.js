@@ -24,3 +24,21 @@ console.log(isEven(75));
 // → false
 console.log(isEven(-1));
 //true
+
+
+/**  Bean Counting  **/
+
+function countBs(string){
+	var count = 0;
+	for(var i=0; i<string.length; i++){
+		if(string.charAt(i)=="B") count +=1;
+	};
+	return count;
+};
+function countChar(str, char){
+	var ct = 0;
+	for(var i=0; i<str.length; i++){
+		if(str.charAt(i)==char) ct +=1;
+	};
+	return ct;
+};
