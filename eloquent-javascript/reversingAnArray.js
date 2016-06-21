@@ -13,6 +13,20 @@ function reverseArrayInPlace(arr){
     }
        return arr;
 }
+
+/*
+   // solution2 of reverseArrayInPlace 
+
+function reverseArrayInPlace(arr){
+  reverseArr=reverseArray(arr);
+	for(var i=0; i<arr.length-1;i++){
+    arr[i]=reverseArr[i];
+    }
+       return arr;
+}
+
+*/
+
 console.log(reverseArray(["A", "B", "C"]));
 // → ["C", "B", "A"];
 var arrayValue = [1, 2, 3, 4, 5];
