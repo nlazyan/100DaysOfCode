@@ -1,0 +1,29 @@
+.pic{
+	background-image:url("images/nav_back.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.navbar, a, .main{
+	text-decoration: none;
+	color: white;	
+}
+a:hover{
+	color:#dad3d3;
+}
+.navbar h1{
+	margin-right: 20%;
+	margin-left: 16%;
+}
+.navbar a, h1{
+	margin: 0.5em  1.3em;
+	display: inline-block;
+}
+.main {
+	margin-top: 7em;
+	text-align: center;
+	//margin-left: 30%;
+	//margin-right: 50%;
+}
+.main p{
+	display: inline-block;
+}
