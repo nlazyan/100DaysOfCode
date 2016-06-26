@@ -1,11 +1,12 @@
-.pic{
+/*.pic{
 	background-image:url("images/nav_back.jpg");
 	background-size: 100% 100%;
     background-repeat: no-repeat;
     background-color: gray;
+    //position: absolute;
 
 }
-.navbar, a, .main{
+.navbar, li, a, .main{
 	text-decoration: none;
 	color: white;	
 }
@@ -40,8 +41,21 @@ a:hover{
 	background-color: white;
 	color: black;
 
+
 }
 .kayq:hover{
-	padding: 14px 29px 13px 29px;
+	padding: 13px 29px 13px 29px;
 	color: black;
+	
+}
+*/
+body{
+	font-size:16px;
+	color:#fff;
+	background-color: #61122f;
+}
+#header-nav{
+	background-color: white;
+	border-radius: 0;
+	border:0;
 }
