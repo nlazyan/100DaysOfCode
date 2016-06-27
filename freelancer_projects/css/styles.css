@@ -1,0 +1,25 @@
+
+body{
+	font-size:16px;
+	color:#fff;
+	background-color: #61122f;
+}
+#header-nav{
+	background-color: white;
+	border-radius: 0;
+	border:0;
+	height: 80px;
+}
+#nav-list li{
+
+	color: gray;
+	padding: 20px 5px 0px 5px;
+	display: inline-block;
+	float: right;
+	color:green;
+}
+#line{
+	border-left: 1px solid gray;
+	height: 5px;
+	margin: 15px 5px 0px 5px;
+}
