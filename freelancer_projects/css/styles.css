@@ -4,6 +4,15 @@ body{
 	color:#fff;
 	background-color: #61122f;
 }
+a:hover{
+	text-decoration: none;
+}
+.navbar-brand h1{
+	margin: -5px 0px 0px 1.2em;
+}
+nav{
+	position: absolute;
+}
 #header-nav{
 	background-color: white;
 	border-radius: 0;
@@ -11,15 +20,19 @@ body{
 	height: 80px;
 }
 #nav-list li{
-
 	color: gray;
-	padding: 20px 5px 0px 5px;
+	padding: 20px 10px 0px 5px;
 	display: inline-block;
 	float: right;
 	color:green;
+	
 }
+
 #line{
 	border-left: 1px solid gray;
-	height: 5px;
-	margin: 15px 5px 0px 5px;
+	height: 8px;
+	margin: 20px 0px 0px 10px;
+}
+#nav-list li a:hover{
+	text-decoration: none;
 }
