@@ -1,4 +1,6 @@
-
+*  { 
+ box-sizing: border-box;
+}
 body{
 	font-size:16px;
 	color:#fff;
@@ -27,7 +29,7 @@ nav{
 }
 #nav-list li{
 	color: gray;
-	padding: 10px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
 	display: inline-block;
 	float: right;
 	color:green;	
@@ -35,15 +37,35 @@ nav{
 
 #line{
 	border-left: 1px solid gray;
-	height: 1.4em;
-	margin: 23px 0px 0px 10px;
+	height: 1.3em;
+	margin: 30px -15px 0px 13px;
 }
 #nav-list li a:hover{
 	text-decoration: none;
 }
-@media(max-width: 1000px){
+.nav-menu{
+	color: #ddbece;
+	border:1px solid black;
+	margin: 0;
+	padding: 0;
+}
+#collapsed-navbar{
+	margin-top: -30px;
+	background-color: #733C59;
+		
+}
+@media(max-width: 990px){
 	#nav-list {
-		margin: -26px !important;
+		margin-top: -25px !important;
+		margin-right: -2.5em;
+
+	}
+
+	
+	.navbar-brand a{
+		font-size: 0.6em;
+		color: red;
+		
 	}
 }
 
