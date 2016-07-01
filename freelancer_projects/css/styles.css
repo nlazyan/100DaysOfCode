@@ -4,7 +4,9 @@
 body{
 	font-size:16px;
 	color:#fff;
-	background-color: #61122f;
+	//background-color: #61122f;
+
+	
 }
 a:hover{
 	text-decoration: none;
@@ -25,20 +27,26 @@ nav{
 	background-color: white;
 	border-radius: 0;
 	border:0;
+	//margin-top:-20px;
+
 	height: 80px;
 }
-#nav-list li{
-	color: gray;
+#nav-list li {
 	padding: 0px 0px 0px 0px;
 	display: inline-block;
 	float: right;
-	color:green;
-
+}
+#nav-list li a, .navbar-brand h1, #line{
+	color: white !important;
+}
+#hov:hover, {
+	color: #b3d9ff !important; // navbar li a hover don't work
 }
 hr{
 	margin: 0;
 }
 #line{
+	color: white !important;
 	border-left: 1px solid gray;
 	height: 1.3em;
 	margin: 10px -15px 0px 13px;
@@ -52,6 +60,32 @@ hr{
 	margin: 0;
 	padding: 0;
 
+}
+#info{
+	text-align: center;
+	margin-top:220px;
+	padding-top: 50px;
+}
+.first{
+	background-image: url("../images/nav_back_1200.jpg") ;//will make img by sizes
+	background-color: pink;
+	background-size: auto 100%;	
+    background-size:contain;
+    background-position:absolute;
+}
+#info h1{
+	margin: 0;
+}
+.make_kayq {
+	padding: 15px 55px;
+	font-size: 20px;
+	margin-bottom: 90px;
+}
+.make_kayq a{
+	color: black;
+}
+.make_kayq:hover{
+	box-shadow: 0px 0px 5px 0px white; 
 }
 
 @media(max-width: 990px){
@@ -69,4 +103,10 @@ hr{
 		height: 58px;
 	}
 }
+@media(max-width: 340px){
+	.navbar-brand h1{
+		font-size: 32px !important;
+		margin-right: -25px !important;
+}
+
 
