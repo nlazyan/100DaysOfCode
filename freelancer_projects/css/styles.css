@@ -32,40 +32,41 @@ nav{
 	padding: 0px 0px 0px 0px;
 	display: inline-block;
 	float: right;
-	color:green;	
-}
+	color:green;
 
+}
+hr{
+	margin: 0;
+}
 #line{
 	border-left: 1px solid gray;
 	height: 1.3em;
-	margin: 30px -15px 0px 13px;
+	margin: 10px -15px 0px 13px;
 }
 #nav-list li a:hover{
 	text-decoration: none;
 }
 .nav-menu{
 	color: #ddbece;
-	border:1px solid black;
+	//border:1px solid #bdbece;
 	margin: 0;
 	padding: 0;
+
 }
-#collapsed-navbar{
-	margin-top: -30px;
-	background-color: #733C59;
-		
-}
+
 @media(max-width: 990px){
 	#nav-list {
 		margin-top: -25px !important;
 		margin-right: -2.5em;
 
 	}
-
-	
 	.navbar-brand a{
+		margin-top: -30px;
 		font-size: 0.6em;
 		color: red;
-		
+	}
+	#header-nav{
+		height: 58px;
 	}
 }
 
